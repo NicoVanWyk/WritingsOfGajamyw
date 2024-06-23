@@ -11,10 +11,10 @@ npm install list:
 commit changes:
 1. git add .
 2. git commit -m "Description of changes"
-3. git push origin main
+3. git push origin master
 
 Deploy new build:
 1. npm run deploy
 
 Collect changes:
-1. git pull origin main
+1. git pull origin master
