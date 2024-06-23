@@ -1,25 +1,34 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import HomePage from './pages/HomePage';
+import NotFoundPage from './pages/NotFoundPage';
+import { AuthProvider } from './contexts/authContext';
+import './globalStyles.css';
+import NavbarComponent from './components/NavbarComponent';
 
-function App() {
+const AppWrapper = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <NavbarComponent />
+      <Routes>
+        {/* Base Path (Home) */}
+        <Route path="/" element={<HomePage />} />
+
+        {/* Not Found */}
+        <Route path="*" element={<NotFoundPage />} />
+      </Routes>
+    </>
   );
-}
+};
+
+const App = () => {
+  return (
+    <AuthProvider>
+      <Router basename="/WritingsOfGajamyw">
+        <AppWrapper />
+      </Router>
+    </AuthProvider>
+  );
+};
 
 export default App;
