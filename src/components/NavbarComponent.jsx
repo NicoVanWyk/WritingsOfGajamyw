@@ -2,8 +2,10 @@ import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import './css/NavbarComponent.css';
 import logo from '../assets/Logo.jpg';
+import { useAuth } from '../contexts/authContext';
 
 function NavbarComponent() {
+    const { currentUser } = useAuth();
     const [menuOpen, setMenuOpen] = useState(false);
 
     const toggleMenu = () => {
@@ -52,7 +54,13 @@ function NavbarComponent() {
                     </li>
 
                     <li className="navbar-item"><Link to="/stories">Stories</Link></li>
-                    <li className="navbar-item"><Link to="/profile">Profile</Link></li>
+
+                    {currentUser ? (
+                        <li className="navbar-item"><Link to="/profile">Profile</Link></li>
+                    ) : (
+                        <li className="navbar-item"><Link to="/login">Log In</Link></li>
+                    )}
+
                 </ul>
 
                 {/* Mobile Navbar: */}

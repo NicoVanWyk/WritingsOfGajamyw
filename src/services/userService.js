@@ -13,7 +13,6 @@ export const createUserProfile = async (user) => {
         email: email,
         username: username,
         avatar: 'defaultURL',
-        bio: '',
         dateOfRegistration: serverTimestamp(),
         lastLoginDate: serverTimestamp(),
         role: 'user',

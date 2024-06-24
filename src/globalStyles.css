@@ -71,8 +71,8 @@ textarea {
     font-family: "Cormorant Garamond", serif;
     font-size: 28px;
 
-    background-color: #fff;
-    color: #84A185;
+    background-color: #84A185;
+    color: #fff;
 
     margin-top: 10px;
     margin-bottom: 10px;
@@ -81,8 +81,7 @@ textarea {
 }
 
 .btnPrimary:hover {
-    background-color: #84A185;
-    color: #fff;
+    color: #000;
     cursor: pointer;
 }
 
@@ -96,15 +95,15 @@ textarea {
     font-family: "Cormorant Garamond", serif;
     font-size: 28px;
 
-    background-color: transparent;
-    color: #fff;
+    background-color: #fff;
+    color: #84A185;
 
     margin-top: 10px;
     margin-bottom: 10px;
 }
 
 .btnSecondary:hover {
-    color: #84A185;
+    color: #000;
     cursor: pointer;
 }
 

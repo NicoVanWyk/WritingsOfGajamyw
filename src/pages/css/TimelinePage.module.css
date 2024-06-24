@@ -1,0 +1,43 @@
+@media (min-width: 768px) {
+    textarea {
+        max-width: 600px;
+        width: 600px;
+    }
+}
+
+@media (max-width: 767px) {
+    textarea {
+        max-width: 335px;
+        width: 335px;
+    }
+}
+
+.loadingContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* src/components/css/TimelinePage.module.css */
+.vertical-timeline::before {
+    background: #84A185 !important;
+}
+
+.vertical-timeline-element-content {
+    background-color: white !important;
+    border: 2.5px solid #020818 !important;
+    color: black !important;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23) !important;
+}
+
+.vertical-timeline-element-date {
+    color: black !important;
+    font-size: 22px !important;
+    margin-top: -15px !important;
+    margin-right: 30px !important;
+}
+
+.vertical-timeline.vertical-timeline--animate::before {
+    background: #84A185 !important;
+}

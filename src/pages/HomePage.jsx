@@ -13,7 +13,7 @@ function HomePage() {
             </header>
 
             <section className={styles.staticContent}>
-                <h2>About the Author</h2>
+                <h2>About the Authors</h2>
                 <p>Authored by both Sam & Robyn, co-DM's</p>
             </section>
 

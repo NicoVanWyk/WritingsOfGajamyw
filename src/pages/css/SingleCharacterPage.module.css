@@ -1,0 +1,112 @@
+/* src/pages/css/SingleCharacterPage.module.css */
+
+.characterInfo {
+    margin-bottom: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.characterInfo>p {
+    text-align: center;
+    width: 100%;
+    align-self: center;
+}
+
+.characterInfo>div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    max-width: 900px;
+}
+
+.subDiv_1_p {
+    max-width: 150px;
+    width: 100%;
+}
+
+.subDiv_2_p {
+    max-width: 250px;
+    width: 100%;
+}
+
+.subDiv_3_p {
+    max-width: 400px;
+    width: 100%;
+}
+
+.characterImage {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+.formGroup {
+    margin-bottom: 15px;
+    width: 100%;
+    max-width: 500px;
+}
+
+.formGroup label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.formGroup input,
+.largeTextarea {
+    width: 100%;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+.largeTextarea {
+    height: 120px;
+    resize: vertical;
+}
+
+.font22 {
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+
+.characterDetails {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.buttonContainer {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.separator {
+    border: none;
+    border-top: 2px solid #84A185;
+    width: 100%;
+}
+
+.separator_smaller {
+    border: none;
+    border-top: 2px solid #84A185;
+    width: 80%;
+}
+
+h1 {
+    margin-bottom: 0px;
+}
+
+h2 {
+    margin-bottom: 0px;
+    text-decoration: underline;
+}

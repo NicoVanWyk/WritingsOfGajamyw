@@ -26,8 +26,8 @@
     border-radius: 10px;
     font-family: "Cormorant Garamond", serif;
     font-size: 28px;
-    background-color: #fff;
-    color: #84A185;
+    background-color: #84A185;
+    color: #020818;
     margin-top: 10px;
     margin-bottom: 10px;
     padding-left: 20px;
@@ -35,7 +35,7 @@
 }
 
 .btnPrimary:hover {
-    background-color: #84A185;
-    color: #fff;
+    background-color: #020818;
+    color: #84A185;
     cursor: pointer;
 }
