@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/WritingsOfGajamyw/static/css/main.de3e491b.css",
-    "main.js": "/WritingsOfGajamyw/static/js/main.78612ca0.js",
+    "main.css": "/WritingsOfGajamyw/static/css/main.119414c6.css",
+    "main.js": "/WritingsOfGajamyw/static/js/main.1ca89b4a.js",
     "static/js/453.6451237d.chunk.js": "/WritingsOfGajamyw/static/js/453.6451237d.chunk.js",
     "static/media/Logo.jpg": "/WritingsOfGajamyw/static/media/Logo.597548bd0058c435efe0.jpg",
     "index.html": "/WritingsOfGajamyw/index.html",
-    "main.de3e491b.css.map": "/WritingsOfGajamyw/static/css/main.de3e491b.css.map",
-    "main.78612ca0.js.map": "/WritingsOfGajamyw/static/js/main.78612ca0.js.map",
+    "main.119414c6.css.map": "/WritingsOfGajamyw/static/css/main.119414c6.css.map",
+    "main.1ca89b4a.js.map": "/WritingsOfGajamyw/static/js/main.1ca89b4a.js.map",
     "453.6451237d.chunk.js.map": "/WritingsOfGajamyw/static/js/453.6451237d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.de3e491b.css",
-    "static/js/main.78612ca0.js"
+    "static/css/main.119414c6.css",
+    "static/js/main.1ca89b4a.js"
   ]
 }
